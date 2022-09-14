@@ -1,0 +1,107 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.hero-section{
+    background: url(images/jubilee-park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Cabin Sketch', cursive;
+    width: 100%;
+    height:400px;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#hero-title{
+    background: #457B9D;
+    width: 120px;
+    font-size: 16px;
+    padding: 5px 28px 5px 18px;
+    letter-spacing: 1px;
+    border-radius:8px;
+    color: #ffffff; 
+    font-size: 24px;
+}
+#hero-desc{
+    background: #1D3557;
+    width: 500px;;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius:8px;
+}
+.act-main{
+    color:#1D3557;
+    background: #D9FDD8;
+    margin: 0;
+    padding: 10px;
+}
+.act-main>h3{
+    font-family: 'Cabin Sketch', cursive;
+    font-size:24px;
+}
+.activity-section{
+    display:flex;
+    justify-content: space-around;
+}
+.img-card{
+    width:250px;
+    margin: 10px;
+    padding: 10px;
+}
+.img-card:hover{
+    background:#E7EAEE;
+    border-radius:8px;
+    padding-top:25px;
+}
+.img-card>img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:solid 5px #1D3557;
+}
+.img-card>h3{
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 700;
+}
+.guide-main{
+    margin-top:10px;
+    background: #A8DADC;
+    width:400px;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius:10px;
+    border-bottom: solid 8px #1D3557;
+    border-right: solid 8px #1D3557;;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.guide-main>img{
+    width:150px;
+    margin: 5px;
+    border:solid 2px #1D3557;
+    border-radius:8px;
+}
+.guide-section{
+    width:250px;
+    margin: 0px;
+    padding: 10px;
+}
